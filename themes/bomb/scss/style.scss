@@ -1,0 +1,67 @@
+@import 'base';
+@import 'scroll';
+@import 'concerts';
+
+html,
+body {
+    scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
+}
+
+.upper {
+    scroll-snap-align: start;
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .hero-header {
+        background-color: $mystery;
+        text-align: right;
+        color: $white;
+    }
+}
+
+
+.lower {
+    scroll-snap-align: start;
+    background-color: $white-background;
+}
+
+
+.content-container {
+    background-color: $white-background;
+}
+
+
+.footer {
+    z-index: 2;
+    scroll-snap-align: none;
+    // background-color: $red;
+    background-color: #b32400;
+    // border-top: 2px solid $dark-blue;
+}
+
+
+.footer .container {
+    color: #fff;
+
+    a {
+        color: #fff;
+    }
+
+    a:hover {
+        color: $dark-blue;
+    }
+}
+
+.social {
+    .fab,
+    .fas {
+        margin: 1rem 1rem 0 0;
+    }
+}
+
+.front-page .footer {
+    scroll-snap-align: end;
+}

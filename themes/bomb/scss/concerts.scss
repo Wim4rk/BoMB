@@ -1,0 +1,135 @@
+.concerts {
+    margin: 1rem;
+    margin-top: $header-height;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+    // grid-template-rows: repeat(4, 25%);
+    grid-gap: $gap-width;
+}
+
+.poster {
+    display: flex;
+    flex-direction: column;
+    background-color: $yellow;
+    padding: 1em;
+
+    h2 {
+        @include font-size(1.2em);
+        margin-top: 0;
+    }
+
+    h3 {
+        @include font-size(1em);
+        margin-top: 0;
+    }
+
+    p {
+        @include font-size(0.8em);
+        margin-top: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.concert-image {
+    padding: 1em;
+    background-color: $yellow;
+    margin-bottom: 1em;
+}
+
+.portrait {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.landscape {
+    display: flex;
+    flex-direction: column;
+}
+
+.date .time {
+    width: 50%;
+}
+
+.col1 {
+    grid-column-start: 1;
+}
+
+.col2 {
+    grid-column-start: 2;
+}
+
+.col3 {
+    grid-column-start: 3;
+}
+
+.col4 {
+    grid-column-start: 4;
+}
+
+.col5 {
+    grid-column-start: 5;
+}
+
+.row1 {
+    grid-row-start: 1;
+}
+
+.row2 {
+    grid-row-start: 2;
+}
+
+.row3 {
+    grid-row-start: 3;
+}
+
+.row4 {
+    grid-row-start: 4;
+}
+
+.span2col {
+    grid-column-end: span 2;
+}
+
+.span2row {
+    grid-row-end: span 2;
+}
+
+.order1 {
+    order: 1;
+}
+
+.order2 {
+    order: 2;
+}
+
+.order3 {
+    order: 3;
+}
+
+.order4 {
+    order: 4;
+}
+
+.order5 {
+    order: 5;
+}
+
+
+/* Small devices */
+
+@media (max-width: 767px) {
+    .concerts {
+        display: flex !important;
+        flex-flow: column wrap;
+        margin: 0;
+
+        .poster {
+            margin: $gap-width;
+        }
+    }
+}
