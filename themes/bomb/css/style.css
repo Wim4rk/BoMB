@@ -6462,7 +6462,6 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-/* Triadic color scheme: blue, red and yellow */
 .hidden {
   display: none !important;
 }
@@ -6485,9 +6484,10 @@ readers do not read off random characters that represent icons */
 
 #nav {
   z-index: 2;
-  border-bottom: 2px solid #121e34;
-  background-color: #4273cf;
+  border-bottom: 2px solid #c3c3c3;
+  background-color: #222;
   margin-bottom: 1em;
+  padding-top: 2em;
   position: fixed;
   top: 0;
   width: 100%;
@@ -6495,7 +6495,7 @@ readers do not read off random characters that represent icons */
   text-align: center;
 }
 #nav a {
-  color: #fff;
+  color: #f5f5f5;
   text-decoration: none;
 }
 #nav .logo {
@@ -6512,7 +6512,7 @@ readers do not read off random characters that represent icons */
   margin-left: 1em;
   padding: 0;
   font-weight: bold;
-  background-color: #4273cf;
+  background-color: #222;
 }
 #nav a:hover {
   text-decoration: underline;
@@ -6554,26 +6554,30 @@ article {
   grid-column: 2;
 }
 
-.upper {
-  height: calc(100vh - 6em);
+.above-fold {
+  height: 100vh;
   display: grid;
   grid-template-columns: 20% auto 10%;
   grid-template-rows: 60% auto 20%;
   grid-gap: 1rem;
 }
-.upper .hero-header {
-  padding: 2em 1em;
+.above-fold .hero-header {
   grid-column: 2;
   grid-row: 2;
-  background-color: rgba(255, 0, 0, 0.6);
+  background-color: rgba(30, 30, 30, 0.7);
+  color: #f5f5f5;
   text-align: right;
 }
 
-.lower {
+.hero-header h1 {
+  align-self: center;
+}
+
+.below-fold {
   height: calc(100vh - 6em);
 }
 
-.lower article {
+.below-fold article {
   margin-top: 6em;
 }
 
@@ -6667,7 +6671,7 @@ article {
   }
 }
 img:not([alt]) {
-  outline: 4px #121e34 dashed !important;
+  outline: 4px red dashed !important;
 }
 
 .embed-container {
@@ -6698,7 +6702,7 @@ img:not([alt]) {
   width: 4em;
   text-align: center;
   padding: 2em;
-  border: 2px solid #121e34;
+  border: 2px solid #333;
   margin: 0.2em;
 }
 
@@ -6706,7 +6710,7 @@ body {
   font-size: 16px;
   line-height: 1.75;
   font-family: "Merriweather", Georgia, Times, "Times New Roman", serif;
-  color: #121e34;
+  color: #333;
 }
 
 h1,
@@ -6752,6 +6756,16 @@ figcaption {
   text-align: center;
 }
 
+a {
+  color: #c3c3c3;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #222;
+  text-decoration: none;
+}
+
 .social a {
   text-decoration: none;
 }
@@ -6761,16 +6775,6 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-}
-
-a {
-  color: #121e34;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #b32400;
-  text-decoration: none;
 }
 
 .scroll-button {
@@ -6823,7 +6827,7 @@ a:hover {
 .poster {
   display: flex;
   flex-direction: column;
-  background-color: #ff6;
+  background-color: yellow;
   padding: 1em;
 }
 .poster h2 {
@@ -6847,7 +6851,7 @@ a:hover {
 
 .concert-image {
   padding: 1em;
-  background-color: #ff6;
+  background-color: yellow;
   margin-bottom: 1em;
 }
 
@@ -6955,34 +6959,34 @@ body {
   font-size: 2em;
 }
 .upper .hero-header {
-  background-color: rgba(255, 0, 0, 0.6);
+  background-color: rgba(30, 30, 30, 0.7);
   text-align: right;
   color: #f5f5f5;
 }
 
 .lower {
   scroll-snap-align: start;
-  background-color: rgba(245, 245, 245, 0.8);
+  background-color: rgba(250, 250, 250, 0.8);
 }
 
 .content-container {
-  background-color: rgba(245, 245, 245, 0.8);
+  background-color: rgba(250, 250, 250, 0.8);
 }
 
 .footer {
   z-index: 2;
   scroll-snap-align: none;
-  background-color: #b32400;
+  background-color: #c3c3c3;
 }
 
 .footer .container {
   color: #fff;
 }
 .footer .container a {
-  color: #fff;
+  color: #f5f5f5;
 }
 .footer .container a:hover {
-  color: #121e34;
+  color: #f5f5f5;
 }
 
 .social .fab,

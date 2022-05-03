@@ -1,3 +1,11 @@
+// Typography
+// @import url('https://fonts.googleapis.com/css2?family=Exo&family=Expletus+Sans&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Oswald:wght@700&display=swap');
+
+$font-family: 'Merriweather', Georgia, Times, 'Times New Roman', serif;
+$header-font-family: 'Oswald', sans-serif;
+
+
 body {
     font-size: $fontsize;
     line-height: $lineheight;
@@ -42,6 +50,16 @@ li h1 {
 
 figcaption {
     text-align: center;
+}
+
+a {
+    color: $link-color-dark;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: $link-hover;
+    text-decoration: none;
 }
 
 .social a {

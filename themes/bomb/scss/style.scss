@@ -38,7 +38,7 @@ body {
     z-index: 2;
     scroll-snap-align: none;
     // background-color: $red;
-    background-color: #b32400;
+    background-color: $footer-background;
     // border-top: 2px solid $dark-blue;
 }
 
@@ -47,11 +47,11 @@ body {
     color: #fff;
 
     a {
-        color: #fff;
+        color: $footer-link;
     }
 
     a:hover {
-        color: $dark-blue;
+        color: $footer-link;
     }
 }
 

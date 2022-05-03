@@ -10,7 +10,7 @@
 .poster {
     display: flex;
     flex-direction: column;
-    background-color: $yellow;
+    background-color: $ticket-color;
     padding: 1em;
 
     h2 {
@@ -35,7 +35,7 @@
 
 .concert-image {
     padding: 1em;
-    background-color: $yellow;
+    background-color: $ticket-color;
     margin-bottom: 1em;
 }
 

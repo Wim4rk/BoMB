@@ -26,27 +26,29 @@ article {
     grid-column: 2;
 }
 
-.upper {
-    height: calc(100vh - 6em);
+.above-fold {
+    height: 100vh;
+    // height: calc(100vh - 6em);
     display: grid;
     grid-template-columns: 20% auto 10%;
     grid-template-rows: 60% auto 20%;
     grid-gap: $gap-width;
 
     .hero-header {
-        padding: 2em 1em;
+        // padding: 1rem;
         grid-column: 2;
         grid-row: 2;
         background-color: $mystery;
+        color: $white;
         text-align: right;
     }
 }
 
-.lower {
+.below-fold {
     height: calc(100vh - 6em);
 }
 
-.lower article {
+.below-fold article {
     margin-top: $header-height;
 }
 
