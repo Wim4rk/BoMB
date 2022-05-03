@@ -1,0 +1,49 @@
+body {
+    font-size: $fontsize;
+    line-height: $lineheight;
+    font-family: $font-family;
+    color: $body-color;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $header-font-family;
+}
+
+h1 {
+    @include font-size(2.3em);
+    margin-top: 1rem;
+}
+
+h2 {
+    @include font-size(1.6em);
+}
+
+h3 {
+    @include font-size(1.2em);
+}
+
+p {
+    @include font-size(1em);
+    margin-top: 1em;
+}
+
+ul {
+    list-style-position: inside;
+    margin-left: 0.5em;
+}
+
+li p,
+li h1 {
+    margin-left: 1rem;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.social a {
+    text-decoration: none;
+}

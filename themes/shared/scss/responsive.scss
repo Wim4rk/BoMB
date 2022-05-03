@@ -1,14 +1,72 @@
-img,
-embed,
-object,
-video {
-    max-width: 100%;
-}
+/* Small devices */
 
 @media (max-width: 767px) {
-    .copyright,
-    .social {
-        grid-column: span 3;
-        justify-self: center;
+    #nav {
+        clear: both;
+        padding: 0;
+
+        ul {
+            padding-bottom: 1em;
+        }
+
+        ul li {
+            display: block;
+            margin-left: 0;
+            text-align: center;
+        }
+
+        ul li a {
+            display: block;
+            padding: 0.5em 0;
+        }
+    }
+
+    .js #nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        margin: 1rem;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+    // #main {
+    //     margin-top: 0;
+    // }
+
+    .scroll-down {
+        margin-top: 0;
+    }
+
+    .content {
+        margin-top: 0;
+    }
+
+    .upper {
+        scroll-snap-align: start;
+        height: 100vh;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: flex-end;
+
+        .hero-header {
+            text-align: center !important;
+            margin-top: 12em;
+        }
+
+        .scroll-button {
+            align-self: center;
+        }
+    }
+
+    .lower article {
+        margin-top: 2em;
+    }
+
+    .article-image {
+        width: 100%;
     }
 }

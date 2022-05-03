@@ -1,26 +1,42 @@
+/* BASE RULES
+ * Base rules are the defaults. They are almost exclusively single element
+ * selectors but it could include attribute selectors, pseudo-class selectors,
+ * child selectors or sibling selectors. Essentially, a base style says that
+ * wherever this element is on the page, it should look like this.
+ */
+
 @import '../../node_modules/normalize.css/normalize';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+
+$fa-font-path: '../../shared/fontawesome/webfonts';
+
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+
 @import 'mixins';
+@import 'variables';
 @import 'nav';
+@import 'layout';
 @import 'responsive';
+@import 'modules';
+@import 'typography';
 
-img:not([alt]) {
-    outline: 4px $first-contrast dashed !important;
-}
-
-.embed-container {
-    position: relative;
-    height: 0;
-    padding-bottom: 56.25%;
-    overflow: hidden;
-    max-width: 100%;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+html,
+body {
     height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: $dark_blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: $red;
+    text-decoration: none;
 }

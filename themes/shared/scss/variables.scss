@@ -1,0 +1,28 @@
+/* Triadic color scheme: blue, red and yellow */
+
+$white: #f5f5f5;
+$white-background: rgba(245, 245, 245, 0.8);
+
+$blue: #4273cf;
+$red: #b32400;
+$yellow: #ff6;
+$dark-blue: #121e34;
+$mystery: rgba(0, 0, 0, 0.6);
+
+$body-color: $dark-blue;
+
+$magic-number: 28px;
+$fontsize: 16px;
+$lineheight: calc($magic-number / $fontsize);
+
+$gap-width: 1rem;
+
+$header-height: 6em;
+$footer-height: $header-height;
+
+// Typography
+// @import url('https://fonts.googleapis.com/css2?family=Exo&family=Expletus+Sans&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Oswald:wght@700&display=swap');
+
+$font-family: 'Merriweather', Georgia, Times, 'Times New Roman', serif;
+$header-font-family: 'Oswald', sans-serif;

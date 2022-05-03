@@ -1,0 +1,83 @@
+html,
+body {
+    height: 100%;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+
+
+.content-container {
+    flex-grow: 5;
+}
+
+
+.content {
+    margin-top: $header-height;
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+}
+
+
+article {
+    grid-column: 2;
+}
+
+.upper {
+    height: calc(100vh - 6em);
+    display: grid;
+    grid-template-columns: 20% auto 10%;
+    grid-template-rows: 60% auto 20%;
+    grid-gap: $gap-width;
+
+    .hero-header {
+        padding: 2em 1em;
+        grid-column: 2;
+        grid-row: 2;
+        background-color: $mystery;
+        text-align: right;
+    }
+}
+
+.lower {
+    height: calc(100vh - 6em);
+}
+
+.lower article {
+    margin-top: $header-height;
+}
+
+.article-image {
+    padding: 1em;
+    width: 60%;
+}
+
+.left {
+    float: left;
+    padding-left: 0;
+}
+
+.right {
+    float: right;
+    padding-right: 0;
+}
+
+.footer {
+    .container {
+        padding: 2em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+
+.social {
+    .fab,
+    .fas {
+        margin: 1rem 1rem 0 0;
+    }
+}
