@@ -1,0 +1,25 @@
+{
+  "name": "BoMB",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fa": "sass shared/fontawesome/scss/fontawesome.scss shared/fontawesome/css",
+    "lint": "stylelint \"**/*.scss\"",
+    "style": "sass bomb/scss/style.scss bomb/css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass bomb/scss/style.scss bomb/css/style.css --watch --no-source-map"
+  },
+  "keywords": [],
+  "author": "Olov Wimark",
+  "license": "ISC",
+  "devDependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.32.13",
+    "stylelint": "^13.13.1",
+    "stylelint-config-sass-guidelines": "^8.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1"
+  }
+}
