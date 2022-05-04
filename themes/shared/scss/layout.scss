@@ -31,13 +31,13 @@ article {
     // height: calc(100vh - 6em);
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr;
-    grid-template-rows: 60% auto 20%;
+    grid-template-rows: $header-height 3fr 1fr 1fr;
     grid-gap: $gap-width;
 
     .hero-header {
         padding: 1rem;
         grid-column: 3;
-        grid-row: 2;
+        grid-row: 3;
         align-self: right;
         background-color: $mystery;
         color: $white;

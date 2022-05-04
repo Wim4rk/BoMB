@@ -10,18 +10,43 @@ body {
 
 .upper {
     scroll-snap-align: start;
-
-    // h1 {
-    //     font-size: 2em;
-    // }
-    //
-    // .hero-header {
-    //     background-color: $mystery;
-    //     text-align: right;
-    //     color: $white;
-    // }
 }
 
+.hero-header {
+    visibility: hidden;
+}
+
+.project {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+    color: $white;
+}
+
+.project h1 {
+    padding-left: 2rem;
+}
+
+.date-container {
+    display: flex;
+}
+
+.project-date {
+    margin: 0;
+    border-left: .1rem solid $white;
+
+    h2 {
+        margin: 0;
+        padding: 0 2rem;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+.project-date:first-child {
+    border-left: 0;
+}
 
 .lower {
     scroll-snap-align: start;

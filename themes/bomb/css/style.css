@@ -6557,13 +6557,13 @@ article {
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr 2fr 1fr;
-  grid-template-rows: 60% auto 20%;
+  grid-template-rows: 4em 3fr 1fr 1fr;
   grid-gap: 1rem;
 }
 .above-fold .hero-header {
   padding: 1rem;
   grid-column: 3;
-  grid-row: 2;
+  grid-row: 3;
   align-self: right;
   background-color: rgba(30, 30, 30, 0.7);
   color: #f5f5f5;
@@ -6793,7 +6793,7 @@ body {
   align-self: center;
   justify-self: center;
   grid-column: 4;
-  grid-row: 3;
+  grid-row: 4;
   margin: 1.5em;
   display: block;
   width: 32px;
@@ -6968,6 +6968,40 @@ body {
 
 .upper {
   scroll-snap-align: start;
+}
+
+.hero-header {
+  visibility: hidden;
+}
+
+.project {
+  grid-column: 2/span 2;
+  grid-row: 2;
+  color: #f5f5f5;
+}
+
+.project h1 {
+  padding-left: 2rem;
+}
+
+.date-container {
+  display: flex;
+}
+
+.project-date {
+  margin: 0;
+  border-left: 0.1rem solid #f5f5f5;
+}
+.project-date h2 {
+  margin: 0;
+  padding: 0 2rem;
+}
+.project-date p {
+  text-align: center;
+}
+
+.project-date:first-child {
+  border-left: 0;
 }
 
 .lower {
