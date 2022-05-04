@@ -30,26 +30,37 @@ article {
     height: 100vh;
     // height: calc(100vh - 6em);
     display: grid;
-    grid-template-columns: 20% auto 10%;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
     grid-template-rows: 60% auto 20%;
     grid-gap: $gap-width;
 
     .hero-header {
-        // padding: 1rem;
-        grid-column: 2;
+        padding: 1rem;
+        grid-column: 3;
         grid-row: 2;
+        align-self: right;
         background-color: $mystery;
         color: $white;
         text-align: right;
     }
 }
 
+.hero-header h1 {
+    align-self: center;
+}
+
 .below-fold {
-    height: calc(100vh - 6em);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: $header-height auto $header-height;
+    grid-gap: 1rem;
+    background-color: $white-background;
 }
 
 .below-fold article {
-    margin-top: $header-height;
+    grid-column: 2 / span 2;
+    grid-row: 2;
 }
 
 .article-image {
@@ -68,11 +79,14 @@ article {
 }
 
 .footer {
+    grid-row: 3;
+    grid-column: 1 / 5;
     .container {
-        padding: 2em;
+        margin: 0 1rem 0 1rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        align-content: center;
     }
 }
 

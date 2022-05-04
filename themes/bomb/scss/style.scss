@@ -11,15 +11,15 @@ body {
 .upper {
     scroll-snap-align: start;
 
-    h1 {
-        font-size: 2em;
-    }
-
-    .hero-header {
-        background-color: $mystery;
-        text-align: right;
-        color: $white;
-    }
+    // h1 {
+    //     font-size: 2em;
+    // }
+    //
+    // .hero-header {
+    //     background-color: $mystery;
+    //     text-align: right;
+    //     color: $white;
+    // }
 }
 
 
@@ -39,7 +39,6 @@ body {
     scroll-snap-align: none;
     // background-color: $red;
     background-color: $footer-background;
-    // border-top: 2px solid $dark-blue;
 }
 
 
