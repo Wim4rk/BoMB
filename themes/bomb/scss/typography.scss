@@ -1,0 +1,13 @@
+a {
+    color: $link-color-dark;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: $link-hover;
+    text-decoration: none;
+}
+
+.social a {
+    text-decoration: none;
+}

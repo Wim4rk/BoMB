@@ -20,6 +20,14 @@ body {
     grid-column: 2 / span 2;
     grid-row: 2;
     color: $white;
+
+    h1 {
+        color: $white;
+    }
+
+    a:hover {
+        color: $white;
+    }
 }
 
 .project h1 {
@@ -41,6 +49,20 @@ body {
 
     p {
         text-align: center;
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $white;
+        text-decoration: underline;
+    }
+
+    a:visited {
+        color: $white;
     }
 }
 
