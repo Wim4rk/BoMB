@@ -8,8 +8,6 @@ Template: article
 
 ## Mats Siggstedt
 
-CV eller liknande
-
 ## Anders Wimark, trumpet
 
 ## Markus Källman
@@ -17,5 +15,3 @@ CV eller liknande
 ## Olov Wimark
 
 ## Kristoffer Siggstedt
-
-Som ni ser finns det släktband i ensemblen.

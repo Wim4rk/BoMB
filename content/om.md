@@ -12,4 +12,4 @@ Norrtullsgatan. Namnet har vi kvar.
 
 Det skulle falla sig så att alla medlemmar i kvintetten blev proffesionella
 musiker. Då vi jobbar på olika håll så blir varje projekt med kvintetten en
-återförening. Vi får dessutom komma hem till Söderhamn, med omnejd
+återförening. Vi får dessutom komma hem till Söderhamn.
