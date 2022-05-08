@@ -6,10 +6,14 @@ Template: article
 
 # Borgmästarbrasset
 
-Borgmästarbrasset är en mässingskvintett från Söderhamnstrakten. Den uppstod
-under 90-talet då musikskolan fortfarande huserade i Borgmästargården på
-Norrtullsgatan. Namnet har vi kvar.
 
-Det skulle falla sig så att alla medlemmar i kvintetten blev proffesionella
-musiker. Då vi jobbar på olika håll så blir varje projekt med kvintetten en
-återförening. Vi får dessutom komma hem till Söderhamn.
+
+## Uppdrag
+
+Vi har en stor, omväxlande repertoar. Från kyrka till farstukvist,
+från skärgård till konsertlokal. Vi passar in överallt.
+Kammarmusik, fanfarer, invigningar, underhållning, event, mässor
+och promoveringar. För att bara ge några förslag.
+
+Om du behöver en brasskvintett, kontakta oss på
+<span id="kontakt">{kontaktuppgift här}</span> för snabbast svar.
