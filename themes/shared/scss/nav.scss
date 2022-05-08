@@ -22,14 +22,14 @@
 // .navigation {
 #nav {
     z-index: 2;
-    border-bottom: 2px solid $nav-border;
+    // border-bottom: 2px solid $nav-border;
     background-color: $nav-background;
     margin-bottom: 1em;
-    // padding-top: 2em;
+    padding: 1em 0 1em 0;
     position: fixed;
     top: 0;
     width: 100%;
-    min-height: $header-height;
+    // height: $header-height;
     text-align: center;
 
     a {
@@ -37,10 +37,10 @@
         text-decoration: none;
     }
 
-    .logo {
-        height: 2em;
-        margin-top: 1em;
-    }
+    // .logo {
+    //     height: 2em;
+    //     margin-top: 1em;
+    // }
 
     ul {
         list-style: none;
