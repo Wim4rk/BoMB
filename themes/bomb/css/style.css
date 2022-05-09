@@ -6969,6 +6969,15 @@ a:hover {
     margin: 1rem;
   }
 }
+.musicians {
+  display: flex;
+  flex-direction: row;
+}
+
+.headshot {
+  width: 12rem;
+}
+
 html,
 body {
   scroll-behavior: smooth;
