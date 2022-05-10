@@ -40,18 +40,7 @@
     <div id="main" class="container content-container" role="main">
         <div class="content">
             <article class="main">
-                <div class="musicians">
-                {% for image in meta.images %}
-
-                    <div class="{{ image.class }}">
-                        <a href="{{ assets_url }}/img/musicians/{{ image.url }}">
-                            <img src="{{ assets_url }}/img/musicians/{{ image.url }}" alt="{{ image.alt }}" class="zoom headshot">
-                        </a>
-                        <p><a href="{{ base_url }}?members/{{ image.link }}">{{ image.alt}}</a></p>
-                    </div>
-
-                {% endfor %}
-                </div>
+                {{ content }}
             </article>
         </div>
     </div>
