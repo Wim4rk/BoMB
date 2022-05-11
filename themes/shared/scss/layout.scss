@@ -18,12 +18,13 @@ body {
 .content {
     margin-top: $header-height;
     display: grid;
-    grid-template-columns: 15% auto 15%;
+    grid-template-columns: auto 40rem auto;
 }
 
 
 article {
     grid-column: 2;
+    // min-height: 100vh;
 }
 
 .above-fold {

@@ -40,7 +40,20 @@
     <div id="main" class="container content-container" role="main">
         <div class="content">
             <article class="main">
-                {{ content }}
+                <div class="musicians">
+                    {% for musician in meta.musician %}
+                        <div class="card">
+                            <img src="{{ assets_url }}/img/tiomanna/{{ musician.url }}" alt="{{ musician.name }}" class="headshot">
+                            <h1 class="namn">{{ musician.namn }}</h1>
+                            <p>{{ musician.cv }}</p>
+                        </div>
+                    {% endfor %}
+                    <!-- <div class="musiker">
+                        <div class="headshot">
+                            <img
+                        </div>
+                    </div> -->
+                </div>
             </article>
         </div>
     </div>
