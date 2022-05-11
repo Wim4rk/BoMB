@@ -2,6 +2,7 @@
 Title: BoMB
 Description: Presentationer
 Template: musicians
+Hidden: true
 images:
     - alt: Mats Siggstedt, trumpetare
       url: mats.jpg
