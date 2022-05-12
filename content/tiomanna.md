@@ -23,7 +23,7 @@ musician:
     - namn: Markus Källman, valthorn
       url: markus_bw.jpg
       class: musician, image, portrait
-      cv:
+      cv: "Markus är valt&shy;hornist i Nordiska Kammar&shy;orkestern."
     - namn: Jonathan Wettermark, trombon
       url: jonathan_bw.jpg
       class: musician, image, portrait
@@ -31,7 +31,7 @@ musician:
     - namn: Olov Wimark, trombon
       url: olov_bw.jpg
       class: musician, image, portrait
-      cv: "Olov är trombonist vid Livgardets Dragonmusikkår. Han spelar musik sittande, till fots och till häst."
+      cv: "Olov är trombonist vid Livgardets Dragon&shy;musikkår. Han spelar musik sittande, till fots och till häst."
     - namn: David Arwe, trombon
       url: david_bw.jpg
       class: musician, image, portrait
@@ -39,9 +39,9 @@ musician:
     - namn: Kristoffer Siggstedt, bastrombon
       url: kristoffer_bw.jpg
       class: musician, image, portrait
-      cv:
+      cv: "Kristoffer är en av Stockholms mest flexibla brass&shy;konsulter."
     - namn: Anton Svanberg, tuba
       url: anton_bw.jpg
       class: musician, image, portrait
-      cv: "Anton är fotbollshistoriker och en av norra Hallands mest flitigt anlitade frijazz-tubaister. han är tvåspråkig, astigmatiker och en stor djurvän."
+      cv: "Anton är en flitigt anlitad frilans&shy;tubaist i Stockholm. Han är också hobby&shy;rörmokare och den ende i orkestern som är klart utsocknes."
 ---
