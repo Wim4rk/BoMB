@@ -2,6 +2,7 @@
 Title: Om
 Description: Om Borgmästarbrasset
 Template: article
+Order: 10
 ---
 
 # Borgmästarbrasset
