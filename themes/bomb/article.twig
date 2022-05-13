@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
 
 </head>
-<!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
+<!-- "Widescreen-mode" can be activated in bomb/config/config.yml -->
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}
     style='background-image: url("{{ base_url }}/assets/img/hth_bred.jpg");
     background-position: center;
@@ -45,9 +45,10 @@
         </div>
     </div>
     {{ include( 'footer.twig' ) }}
+</div>
 
     <script src="{{ theme_url }}/../shared//js/modernizr-3.3.1-custom.min.js" type="text/javascript"></script>
     <script src="{{ theme_url }}/../shared//js/utils.js" type="text/javascript"></script>
     <script src="{{ theme_url }}/../shared//js/responsive-navbar.js" type="text/javascript"></script>
-    </body>
-    </html>
+</body>
+</html>

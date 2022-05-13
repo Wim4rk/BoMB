@@ -62,10 +62,12 @@
                 <a href="#main" class="scroll-down"><span class="sr-only">Scroll</span></a>
             </div>
         </div>
-        <div id="main" class="below-fold content container section" role="main">
-            <article class="article main">
-                {{ content }}
-            </article>
+        <div id="main" class="below-fold" role="main">
+            <div id="article-wrapper" class="content">
+                <article class="article main">
+                    {{ content }}
+                </article>
+            </div>
             {{ include( 'footer.twig' ) }}
         </div>
     </div>

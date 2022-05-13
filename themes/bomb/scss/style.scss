@@ -1,6 +1,7 @@
 @import 'base';
 @import 'scroll';
 @import 'concerts';
+@import 'colors';
 
 html,
 body {
@@ -36,7 +37,7 @@ body {
 
 
 .footer .container {
-    color: #fff;
+    color: $white-background;
 
     a {
         color: $footer-link;
@@ -117,6 +118,37 @@ h1.namn {
     margin: 0;
 }
 
+.above-fold {
+    height: calc(100vh - $footer-height);
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: $header-height 3fr 1fr 1fr;
+    grid-gap: $gap-width;
+
+    .hero-header {
+        padding: 1rem;
+        grid-column: 3;
+        grid-row: 3;
+        align-self: right;
+        background-color: $mystery;
+        color: $white;
+        text-align: right;
+    }
+}
+
+.hero-header h1 {
+    align-self: center;
+}
+
+.below-fold {
+    background-color: $white-background;
+    margin-top: $footer-height;
+    // padding-top: $header-height;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 .hero-header {
     visibility: hidden;
 }
@@ -129,15 +161,17 @@ h1.namn {
 }
 
 .card {
-    width: 46%;
+    width: 46.5%;
     @include font-size(0.9em);
     background-color: $white;
     padding: 0.5em;
     margin-bottom: 1em;
+    border: 1px solid $grey;
 
     p {
         margin: 0;
     }
+
 }
 
 .headshot {
@@ -145,4 +179,19 @@ h1.namn {
     padding: 0 0.5em 0.5em 0;
     background-color: $white;
     float: left;
+}
+
+// nav
+
+#nav {
+    border-bottom: 2px solid $nav-border;
+    background-color: $nav-background;
+
+    a {
+        color: $link-color;
+    }
+
+    ul li {
+        background-color: $nav-background;
+    }
 }
