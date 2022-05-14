@@ -19,7 +19,7 @@ body {
     margin-top: $header-height;
     display: grid;
     grid-template-columns: auto 40rem auto;
-    flex-grow: 5;
+    // flex-grow: 5;
 }
 
 
@@ -45,7 +45,7 @@ article {
 
 .footer {
     grid-row: 3;
-    grid-column: 1 / 5;
+    grid-column: 1 / 4;
     .container {
         margin: 0 1rem 0 1rem;
         display: flex;
