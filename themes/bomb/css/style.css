@@ -7055,11 +7055,12 @@ h1.namn {
 }
 
 .below-fold {
+  height: 100vh;
   background-color: rgba(250, 250, 250, 0.8);
   margin-top: 4em;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  justify-content: space-between;
 }
 
 .hero-header {

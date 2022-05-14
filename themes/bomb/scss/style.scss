@@ -141,11 +141,12 @@ h1.namn {
 }
 
 .below-fold {
+    height: 100vh;
     background-color: $white-background;
     margin-top: $footer-height;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    justify-content: space-between;
 }
 
 .hero-header {
