@@ -35,7 +35,13 @@ av William Byrd, Claude Debussy, Nathan Söderblom och några till.
 * Kristoffer Siggstedt, bastrombon
 * Anton Svanberg, tuba
 
+## Västra kapellet
+
+Västra kapellet är det nybyggda begravningskapellet nedanför Ulrika
+Eleonoras kyrkogård. Adressen är formellt på Växelgatan, men parkering sker
+på Rust&shy;kammar&shy;gatan eller vid gamla IP.
+
 ## Biljetter
 
 Biljetter kostar 200 kr och köps i entrén. Rabatterat pris för
-pensionärer och ungdomar: 150 kr.
+pensionärer och studerande: 150 kr.

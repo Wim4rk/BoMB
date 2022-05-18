@@ -39,4 +39,4 @@ av William Byrd, Claude Debussy, Nathan Söderblom och några till.
 ## Biljetter
 
 Biljetter kostar 200 kr och köps i entrén. Rabatterat pris för
-pensionärer och ungdomar: 150 kr.
+pensionärer och studerande: 150 kr.
