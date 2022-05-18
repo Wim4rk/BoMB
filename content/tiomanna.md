@@ -2,12 +2,12 @@
 Title: Musiker
 Description: Musiker
 Template: tiomanna
-Hidden: true
+Order: 5
 musician:
     - namn: Mats Siggstedt, trumpet
       url: mats_bw.jpg
       class: musician, image, portrait
-      cv: "Mats är orkesterns ålderman. Åtminstone åtta av oss har börjat vår skolning under honom."
+      cv: "Mats är orkesterns ålderman. Åtminstone sju av oss har börjat vår skolning under honom."
     - namn: Anders Wimark, trumpet
       url: anders_bw.jpg
       class: musician, image, portrait
@@ -15,7 +15,7 @@ musician:
     - namn: Toste Solum, trumpet
       url: toste_bw.jpg
       class: musician, image, portrait
-      cv:
+      cv: Toste är rikets hemligaste trumpetare.        
     - namn: Calle Stenman, trumpet
       url: calle_bw.jpg
       class: musician, image, portrait
@@ -45,3 +45,7 @@ musician:
       class: musician, image, portrait
       cv: "Anton är en flitigt anlitad frilans&shy;tubaist i Stockholm. Han är också hobby&shy;rörmokare och den ende i orkestern som är klart utsocknes."
 ---
+# Tiomannabrasset
+
+I vanliga fall är Borg&shy;mästar&shy;brasset en mässings&shy;kvintett, men just
+i sommar är vi ett tio&shy;manna&shy;brass.

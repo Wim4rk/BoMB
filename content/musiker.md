@@ -1,30 +1,31 @@
 ---
-Title: BoMB
-Description: Presentationer
-Template: musicians
+Title: Kvintett
+Description: Kvintetten
+Template: tiomanna
 Order: 4
 Hidden: true
-images:
-    - alt: Mats Siggstedt, trumpetare
-      url: mats.jpg
+musician:
+    - namn: Mats Siggstedt, trumpet
+      url: mats_bw.jpg
       class: musician, image, portrait
-      link: mats
-    - alt: Anders Wimark, trumpetare
-      url: anders.jpg
+      cv: "Mats är orkesterns ålderman. Alla vi andra har börjat vår musikaliska duvning hos honom."
+    - namn: Anders Wimark, trumpet
+      url: anders_bw.jpg
       class: musician, image, portrait
-      link: anders
-    - alt: Markus Källman, valthornist
-      url: markus.jpg
+      cv: "Anders är frilansande trumpetare och brass&shy;lärare i Ljusdal. Han är navet i orkestern."
+    - namn: Markus Källman, valthorn
+      url: markus_bw.jpg
       class: musician, image, portrait
-      link: markus
-    - alt: Olov Wimark, trombonist
-      url: olov.jpg
-      link: olov
+      cv: "Markus är valt&shy;hornist i Nordiska Kammar&shy;orkestern."
+    - namn: Olov Wimark, trombon
+      url: olov_bw.jpg
       class: musician, image, portrait
-    - alt: Kristoffer Siggsted, tubaist
-      url: kristoffer.jpg
+      cv: "Olov är trombonist vid Livgardets Dragon&shy;musikkår. Han spelar musik sittande, till fots och till häst."
+    - namn: Kristoffer Siggstedt, tuba
+      url: kristoffer_bw.jpg
       class: musician, image, portrait
-      link: kristoffer
+      cv: "Kristoffer är en av Stockholms mest flexibla brass&shy;konsulter."
 ---
+# Musiker
 
-<!-- <script src="{{ theme_url }}/../bomb//js/spider_hidden.js" type="text/javascript"></script> -->
+Detta är våra ordinarie musiker.
