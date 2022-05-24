@@ -6,9 +6,9 @@ Template: article
 
 # Från Hårga till Harlem
 
-## Järvsö kyrka, 8 juli klockan 19:00
-
 __Kvintetten Borgmästarbrasset blir ett tiomannabrass i sommar! Vi bjuder in till en trans&shy;atlantisk resa med musik från Hälsingland, Europa och USA. Med fyra trumpeter, fyra tromboner, ett valthorn och en tuba lovar vi er sommarens pampigaste klanger.__
+
+## Järvsö kyrka, 8 juli klockan 19:00
 
 Vi har plockat fram en varierad repertoar, där det finns något
 för alla. Vi har klanger från hälsing&shy;ländska fäbodar, engelska
