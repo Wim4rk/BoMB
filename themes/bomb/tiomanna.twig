@@ -41,15 +41,17 @@
         <div class="content">
             <article class="article main">
                 {{ content }}
+
                 <div class="musicians">
                     {% for musician in meta.musician %}
-                        <div class="card">
+<div class="card">
                             <img src="{{ assets_url }}/img/tiomanna/{{ musician.url }}" alt="{{ musician.name }}" class="headshot">
                             <h1 class="namn">{{ musician.namn }}</h1>
                             <p>{{ musician.cv }}</p>
                         </div>
                     {% endfor %}
                 </div>
+
             </article>
             {{ include( 'footer.twig' ) }}
         </div>

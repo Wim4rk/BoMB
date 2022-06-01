@@ -1,7 +1,9 @@
 @import 'base';
 @import 'scroll';
+@import 'layout';
 @import 'concerts';
 @import 'colors';
+@import 'responsive';
 
 html,
 body {
@@ -151,34 +153,6 @@ h1.namn {
 
 .hero-header {
     visibility: hidden;
-}
-
-.musicians {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.card {
-    width: 46.5%;
-    @include font-size(0.9em);
-    background-color: $white;
-    padding: 0.5em;
-    margin-bottom: 1em;
-    border: 1px solid $grey;
-
-    p {
-        margin: 0;
-    }
-
-}
-
-.headshot {
-    width: 6.5em;
-    padding: 0 0.5em 0 0;
-    background-color: $white;
-    float: left;
 }
 
 // nav

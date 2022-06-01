@@ -6527,6 +6527,7 @@ readers do not read off random characters that represent icons */
 html,
 body {
   height: 100%;
+  overflow-x: scroll;
 }
 
 .page-wrapper {
@@ -6806,6 +6807,33 @@ a:hover {
     transform: translateY(-5px);
   }
 }
+.musicians {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 46.5%;
+  font-size: 0.9em;
+  line-height: 1.9444444444;
+  background-color: #f5f5f5;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #858b83;
+}
+.card p {
+  margin: 0;
+}
+
+.headshot {
+  width: 6.5em;
+  padding: 0 0.5em 0 0;
+  background-color: #f5f5f5;
+  float: left;
+}
+
 .concerts {
   margin: 1rem;
   margin-top: 4em;
@@ -6934,6 +6962,67 @@ a:hover {
   }
   .concerts .poster {
     margin: 1rem;
+  }
+}
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  .content {
+    padding: 1em;
+    grid-template-columns: auto;
+  }
+
+  .nav {
+    padding: 0 1em;
+  }
+  .nav ul {
+    flex-direction: column;
+  }
+  .nav li {
+    padding: 0;
+  }
+  .nav .copyright,
+.nav .social {
+    grid-column: span 3;
+    justify-self: center;
+  }
+
+  .footer {
+    flex-flow: column wrap;
+    text-align: center;
+  }
+}
+@media (max-width: 687px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media (max-width: 571px) {
+  .gallery .col2 {
+    grid-column: span 1;
+  }
+
+  .social {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 455px) {
+  .card {
+    width: 94%;
+  }
+
+  .musicians {
+    flex-direction: column;
+  }
+
+  .content {
+    display: block;
   }
 }
 html,
@@ -7065,33 +7154,6 @@ h1.namn {
 
 .hero-header {
   visibility: hidden;
-}
-
-.musicians {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.card {
-  width: 46.5%;
-  font-size: 0.9em;
-  line-height: 1.9444444444;
-  background-color: #f5f5f5;
-  padding: 0.5em;
-  margin-bottom: 1em;
-  border: 1px solid #858b83;
-}
-.card p {
-  margin: 0;
-}
-
-.headshot {
-  width: 6.5em;
-  padding: 0 0.5em 0 0;
-  background-color: #f5f5f5;
-  float: left;
 }
 
 #nav {

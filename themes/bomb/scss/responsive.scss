@@ -1,0 +1,78 @@
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+
+
+@media (max-width: 919px) {
+
+}
+
+@media (max-width: 803px) {
+
+}
+
+@media (max-width: 767px) {
+
+    .content {
+        padding: 1em;
+        grid-template-columns: auto;
+    }
+
+    .nav {
+        padding: 0 1em;
+
+        ul {
+            flex-direction: column;
+        }
+
+        li {
+            padding: 0;
+        }
+        .copyright,
+        .social {
+            grid-column: span 3;
+            justify-self: center;
+        }
+    }
+
+    .footer {
+        flex-flow: column wrap;
+        text-align: center;
+    }
+}
+
+@media (max-width: 687px) {
+    body {
+        font-size: 14px;
+    }    
+}
+
+@media (max-width: 571px) {
+
+    .gallery .col2 {
+        grid-column: span 1;
+    }
+
+    .social {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 455px) {
+    .card {
+        width: 94%;
+    }
+
+    .musicians {
+        flex-direction: column;
+    }
+
+    .content {
+        display: block;
+    }
+}
