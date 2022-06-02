@@ -7,6 +7,8 @@ Order: 10
 
 # Borgmästarbrasset
 
+![Fem brassmusiker](%assets_url%/img/BoMB.jpg#right "Borgmästarbrasset")
+
 Ensemblen uppstod på 1990-talet då Söderhamns musikskola låg i Borg­mästar­gården på
 Norrtulls­gatan. Vi var några musikskoleelever och en fantastiskt lärare. Idag är
 vi alla professionella musiker.
