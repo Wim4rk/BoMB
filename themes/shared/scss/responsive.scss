@@ -45,26 +45,26 @@
         margin-top: 0;
     }
 
-    .upper {
-        scroll-snap-align: start;
-        height: 100vh;
-        display: flex;
-        flex-flow: column wrap;
-        align-content: flex-end;
-
-        .hero-header {
-            text-align: center !important;
-            margin-top: 12em;
-        }
-
-        .scroll-button {
-            align-self: center;
-        }
-    }
-
-    .lower article {
-        margin-top: 2em;
-    }
+    // .upper {
+    //     scroll-snap-align: start;
+    //     height: 100vh;
+    //     display: flex;
+    //     flex-flow: column wrap;
+    //     align-content: flex-end;
+    //
+    //     .hero-header {
+    //         text-align: center !important;
+    //         margin-top: 12em;
+    //     }
+    //
+    //     .scroll-button {
+    //         align-self: center;
+    //     }
+    // }
+    //
+    // .lower article {
+    //     margin-top: 2em;
+    // }
 
     .article-image {
         width: 100%;
