@@ -6561,6 +6561,22 @@ article {
   padding-left: 0;
 }
 
+img {
+  padding: 1em;
+}
+
+img[src*="#left"] {
+  width: 50%;
+  float: left;
+  padding-left: 0;
+}
+
+img[src*="#right"] {
+  width: 50%;
+  float: right;
+  padding-right: 0;
+}
+
 .right {
   float: right;
   padding-right: 0;
@@ -6620,25 +6636,6 @@ article {
 
   .content {
     margin-top: 0;
-  }
-
-  .upper {
-    scroll-snap-align: start;
-    height: 100vh;
-    display: flex;
-    flex-flow: column wrap;
-    align-content: flex-end;
-  }
-  .upper .hero-header {
-    text-align: center !important;
-    margin-top: 12em;
-  }
-  .upper .scroll-button {
-    align-self: center;
-  }
-
-  .lower article {
-    margin-top: 2em;
   }
 
   .article-image {
@@ -7205,3 +7202,5 @@ h1.namn {
 .fas {
   color: #9c9a84;
 }
+
+/*# sourceMappingURL=style.css.map */
