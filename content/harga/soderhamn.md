@@ -10,6 +10,12 @@ __Kvintetten Borgmästarbrasset blir ett tiomannabrass i sommar! Vi bjuder in ti
 
 ## Västra kapellet, Söderhamn 9 juli klockan 19:00
 
+Västra kapellet är det nybyggda begravnings&shy;kapellet nedanför Ulrika
+Eleonoras kyrkogård. Adressen är formellt på Växelgatan, men parkering sker
+på Rust&shy;kammar&shy;gatan eller vid gamla IP.
+
+## Programord
+
 Vi har plockat fram en varierad repertoar, där det finns något
 för alla. Vi har klanger från hälsing&shy;ländska fäbodar, engelska
 katedraler, och New Yorks gator.
@@ -34,12 +40,6 @@ av William Byrd, Claude Debussy, Nathan Söderblom och några till.
 * Olov Wimark, trombon
 * Kristoffer Siggstedt, bastrombon
 * Anton Svanberg, tuba
-
-## Västra kapellet
-
-Västra kapellet är det nybyggda begravningskapellet nedanför Ulrika
-Eleonoras kyrkogård. Adressen är formellt på Växelgatan, men parkering sker
-på Rust&shy;kammar&shy;gatan eller vid gamla IP.
 
 ## Biljetter
 

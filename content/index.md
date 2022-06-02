@@ -5,17 +5,19 @@ Template: index
 Order: 1
 ---
 
-# Från Hårga till Harlem
+# Tiomannabrass
 
 __Kvintetten Borgmästarbrasset blir ett tiomannabrass i sommar! Vi bjuder in till en
 trans&shy;atlantisk resa med musik från Hälsingland, Europa och USA. Med fyra trumpeter,
 fyra tromboner, ett valthorn och en tuba lovar vi er sommarens pampigaste klanger.__
 
-## Järvsö kyrka, 8 juli klockan 19:00
+# Konserter
 
-## Västra kapellet, Söderhamn 9 juli klockan 19:00
+[Järvsö kyrka, 8 juli klockan 19:00](?harga/jarvso)
 
-## Jakobs kyrka, Hudiksvall, 10 juli klockan 15:00
+[Västra kapellet, Söderhamn 9 juli klockan 19:00](?harga/soderhamn)
+
+[Jakobs kyrka, Hudiksvall, 10 juli klockan 15:00](?harga/hudiksvall)
 
 Vi har plockat fram en varierad repertoar, där det finns något
 för alla. Vi har klanger från hälsing&shy;ländska fäbodar, engelska
