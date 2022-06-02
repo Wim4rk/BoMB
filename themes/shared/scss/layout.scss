@@ -53,6 +53,11 @@ img[src*="#left"] {
     border: 1px solid $grey;
 }
 
+.right {
+    float: right;
+    padding-right: 0;
+}
+
 img[src*="#right"] {
     background-color: $white;
     width: 50%;
@@ -61,11 +66,6 @@ img[src*="#right"] {
     padding: 1em 1em 3em 1em;
     border-radius: .3em;
     border: 1px solid $grey;
-}
-
-.right {
-    float: right;
-    padding-right: 0;
 }
 
 .footer {
