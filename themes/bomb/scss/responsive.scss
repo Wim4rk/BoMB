@@ -92,12 +92,17 @@ video {
 }
 
 @media (max-width: 687px) {
-    // body {
-    //     font-size: 14px;
-    // }
+
 }
 
 @media (max-width: 571px) {
+    .musicians {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 94%;
+    }
 
     .social {
         flex-direction: row;

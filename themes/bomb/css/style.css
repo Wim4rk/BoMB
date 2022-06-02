@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* BASE RULES
  * Base rules are the defaults. They are almost exclusively single element
  * selectors but it could include attribute selectors, pseudo-class selectors,
@@ -6566,15 +6567,27 @@ img {
 }
 
 img[src*="#left"] {
+  background-color: #f5f5f5;
   width: 50%;
   float: left;
-  padding-left: 0;
+  margin-left: 0;
+  padding: 1em 1em 3em 1em;
+  border-radius: 0.3em;
+  border: 1px solid #c3c3c3;
+}
+
+img::after {
+  content: "Borgmästarbrasset";
 }
 
 img[src*="#right"] {
+  background-color: #f5f5f5;
   width: 50%;
   float: right;
-  padding-right: 0;
+  margin-right: 0;
+  padding: 1em 1em 3em 1em;
+  border-radius: 0.3em;
+  border: 1px solid #c3c3c3;
 }
 
 .right {
@@ -7038,6 +7051,14 @@ video {
   }
 }
 @media (max-width: 571px) {
+  .musicians {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 94%;
+  }
+
   .social {
     flex-direction: row;
     justify-content: space-between;
