@@ -1,7 +1,7 @@
 ---
-Title: Musiker
+Title: Tiomanna
 Description: Musiker
-Template: tiomanna
+Template: musicians
 Order: 5
 musician:
     - namn: Mats Siggstedt, trumpet
@@ -47,5 +47,5 @@ musician:
 ---
 # Tiomannabrasset
 
-I vanliga fall är Borg&shy;mästar&shy;brasset en mässings&shy;kvintett, men just
-i sommar är vi ett tio&shy;manna&shy;brass.
+I vanliga fall är Borg&shy;mästar&shy;brasset en mässings&shy;kvintett, men vid
+behov kan vi byggas ut till ett tio&shy;manna&shy;brass.

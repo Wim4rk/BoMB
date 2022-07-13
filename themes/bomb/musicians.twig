@@ -39,23 +39,23 @@
 
     <div id="main" class="container content-container" role="main">
         <div class="content">
-            <article class="main tenpiece">
+            <article class="article main">
+                {{ content }}
+
                 <div class="musicians">
-                {% for image in meta.images %}
-
-                    <div class="{{ image.class }}">
-                        <a href="{{ assets_url }}/img/musicians/{{ image.url }}">
-                            <img src="{{ assets_url }}/img/musicians/{{ image.url }}" alt="{{ image.alt }}" class="zoom headshot">
-                        </a>
-                        <p><a href="{{ base_url }}?members/{{ image.link }}">{{ image.alt}}</a></p>
-                    </div>
-
-                {% endfor %}
+                    {% for musician in meta.musician %}
+<div class="card">
+                            <img src="{{ assets_url }}/img/tiomanna/{{ musician.url }}" alt="{{ musician.name }}" class="headshot">
+                            <h1 class="namn">{{ musician.namn }}</h1>
+                            <p>{{ musician.cv }}</p>
+                        </div>
+                    {% endfor %}
                 </div>
+
             </article>
+            {{ include( 'footer.twig' ) }}
         </div>
     </div>
-    {{ include( 'footer.twig' ) }}
 
     <script src="{{ theme_url }}/../shared//js/modernizr-3.3.1-custom.min.js" type="text/javascript"></script>
     <script src="{{ theme_url }}/../shared//js/utils.js" type="text/javascript"></script>
