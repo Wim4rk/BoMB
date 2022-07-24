@@ -7,7 +7,7 @@ musician:
     - namn: Mats Siggstedt, trumpet
       url: mats_bw.jpg
       class: musician, image, portrait
-      cv: "Mats är orkesterns ålderman. Åtminstone sju av oss har börjat vår skolning under honom."
+      cv: "Mats är orkesterns ålderman. Alla vi andra har börjat vår skolning under honom."
     - namn: Anders Wimark, trumpet
       url: anders_bw.jpg
       class: musician, image, portrait
