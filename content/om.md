@@ -19,7 +19,7 @@ Borgmästarbrasset står till ert förfogande.
 
 Vi har en stor, omväxlande repertoar. Från kyrka till farstu&shy;kvist,
 från skärgård till konsert&shy;lokal. Vi passar in överallt.
-Kammarvmusik, fanfarer, invigningar, under&shy;hållning, event, mässor
+Kammarmusik, fanfarer, invigningar, under&shy;hållning, event, mässor
 och promo&shy;veringar. För att bara ge några förslag.
 
 Om du behöver en brass&shy;kvintett, kontakta oss på
